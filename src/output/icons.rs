@@ -102,7 +102,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "bin"           => '\u{e5fc}', // 
             ".git"          => '\u{f1d3}', // 
             ".idea"         => '\u{e7b5}', // 
-            _               => '\u{f115}'  // 
+            _               => '\u{e5ff}'  // 
         }
     }
     else if let Some(icon) = extensions.icon_file(file) { icon }
@@ -337,7 +337,7 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "tsx"           => '\u{e7ba}', // 
             "ttf"           => '\u{f031}', // 
             "twig"          => '\u{e61c}', // 
-            "txt"           => '\u{f15c}', // 
+            "txt"           => '\u{f15c}', // 
             "txz"           => '\u{f410}', // 
             "tz"            => '\u{f410}', // 
             "tzo"           => '\u{f410}', // 
@@ -364,10 +364,10 @@ pub fn icon_for_file(file: &File<'_>) -> char {
             "zsh-theme"     => '\u{f489}', // 
             "zshrc"         => '\u{f489}', // 
             "zst"           => '\u{f410}', // 
-            _               => '\u{f15b}'  // 
+            _               => '\u{f4a5}'  // 
         }
     }
     else {
-        '\u{f016}'
+        '\u{f4a5}' // 
     }
 }
